@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Factorion extends Factorial {
   
+  // Now it's working
   public static boolean isFactorion ( int n ) {
     int sum = 0;
     int m = n;
