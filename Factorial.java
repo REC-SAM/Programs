@@ -2,7 +2,7 @@ package Programs;
 
 import java.util.*;
 
-public class Factorial {
+public static class Factorial {
   
   // I don't know why it not compliing
   public int fact ( int n ) {
