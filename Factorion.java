@@ -2,19 +2,17 @@ package Programs;
 
 import java.util.*;
 
-public class Factorion implements Factorial {
+public class Factorion extends Factorial {
   
-  // this is also not working.
+  // Now it's working
   public static boolean isFactorion ( int n ) {
     int sum = 0;
+    int m = n;
     while( n > 0 ) {
       sum += fact(n%10);
       n /= 10;
     }
-    if( n == sum )
-      return True;
-    else
-      return False;
+    return ( m == sum );
   }
   
   public static void main ( String [] args ) {
