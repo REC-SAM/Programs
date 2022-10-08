@@ -6,6 +6,8 @@ public static class Factorial {
   
   // I don't know why it not compliing
   public int fact ( int n ) {
+    if( n < 2 )
+      return n;
     return n*fact(n-1);
   }
   
